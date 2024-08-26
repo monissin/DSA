@@ -1,4 +1,4 @@
-package design.patterns.creational.prototype;
+package patterns.creational.prototype;
 
 public class Circle extends Shape {
 

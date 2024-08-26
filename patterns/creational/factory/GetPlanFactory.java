@@ -1,4 +1,4 @@
-package design.patterns.creational.factory;
+package patterns.creational.factory;
 
 public class GetPlanFactory {
 

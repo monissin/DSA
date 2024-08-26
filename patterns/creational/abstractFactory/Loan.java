@@ -1,4 +1,4 @@
-package design.patterns.creational.abstractFactory;
+package patterns.creational.abstractFactory;
 
 public abstract class Loan {
     protected double rate;

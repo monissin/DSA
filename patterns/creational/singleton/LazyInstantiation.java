@@ -1,4 +1,4 @@
-package design.patterns.creational.singleton;
+package patterns.creational.singleton;
 
 
 // If class is loaded by two classloaders,
