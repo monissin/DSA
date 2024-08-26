@@ -1,0 +1,11 @@
+Prototype Pattern says that cloning of an existing object instead of creating new one and can also be customized as per the requirement.
+This pattern should be followed, if the cost of creating a new object is expensive and resource intensive.
+Prototype is a creational design pattern that lets you copy existing objects without making your code dependent on their classes.
+
+Pros.
+1. It reduces the need of sub-classing.
+2. It hides complexities of creating objects.
+3. You can clone objects without coupling to their concrete classes.
+
+Cons.
+1. Cloning complex objects that have circular references might be very tricky.

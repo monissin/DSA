@@ -1,0 +1,15 @@
+Iterative method
+Time Complexity: O(log n)
+Auxiliary Space: O(1)
+
+Recursive method
+Time Complexity: O(log n)
+Auxiliary Space: O(log n)
+
+BinarySearch using Built-in Methods in Java
+1. Arrays.binarySearch()
+    -> If input list is not sorted, the results are undefined.
+    -> If there are duplicates, there is no guarantee which one will be found.
+2. Collections.binarySearch()
+    -> The method throws ClassCastException if elements of list are not comparable using the specified comparator,
+    or the search key is not comparable with the elements.

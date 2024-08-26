@@ -1,0 +1,10 @@
+Abstract Factory Pattern says that just define an interface or abstract class for creating families of related (or dependent) objects but without specifying their concrete sub-classes.
+That means Abstract Factory lets a class returns a factory of classes. So, this is the reason that Abstract Factory Pattern is one level higher than the Factory Pattern.
+
+Pros
+1. You avoid tight coupling between concrete products and client code.
+2. Single Responsibility Principle. You can extract the product creation code into one place, making the code easier to support.
+3. Open/Closed Principle. You can introduce new variants of products without breaking existing client code.
+
+Cons
+1. The code may become more complicated than it should be, since a lot of new interfaces and classes are introduced along with the pattern.

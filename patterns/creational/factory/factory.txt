@@ -1,0 +1,10 @@
+Factory Method is a creational design pattern that provides an interface for creating objects in a superclass,
+but allows subclasses to alter the type of objects that will be created.
+
+Pros
+1. Factory Method Pattern allows the sub-classes to choose the type of objects to create.
+2. It promotes the loose-coupling by eliminating the need to bind application-specific classes into the code. That means the code interacts solely with the resultant interface or abstract class, so that it will work with any classes that implement that interface or that extends that abstract class.
+3. Open/Closed Principle. You can introduce new types of products into the program without breaking existing client code.
+
+Cons:
+1. The code may become more complicated since you need to introduce a lot of new subclasses to implement the pattern.
